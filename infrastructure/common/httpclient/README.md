@@ -1,0 +1,1 @@
+使用了开源库https://github.com/avast/retry-go进行http的请求重试

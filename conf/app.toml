@@ -1,0 +1,10 @@
+Name = "ddd-demo-go"
+IDC     = "test"
+RunMode = "debug" # debug release test
+
+[HTTPServer]
+Addr = ":8083"
+ReadTimeout  =  8000000000 #  ns
+WriteTimeout =  80000000000 #  ns
+IdleTimeout  =  8000000000 #  ns
+

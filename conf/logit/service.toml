@@ -1,0 +1,12 @@
+FileName="log/service/service.log"
+MaxSize=10
+MaxAge=1
+MaxBackups=1
+
+[[Dispatch]]
+FileSuffix=""
+Levels=["INFO","DEBUG"]
+
+[[Dispatch]]
+FileSuffix=".wf"
+Levels=["WARN","ERROR","FATAL","DPANIC","PANIC"]

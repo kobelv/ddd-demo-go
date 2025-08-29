@@ -1,0 +1,11 @@
+# todo: 需根据实际mysql服务配置更改
+Driver     = "mysql"
+Address    = ""
+Port       = 3307
+UserName   = ""
+Password   = ""
+DbName     = ""
+max_open_conns = 10
+max_idle_conns = 5
+conn_max_life_time = 5000
+DSNParams ="charset=utf8mb4&timeout=90s&collation=utf8mb4_unicode_ci&parseTime=true&loc=Local"

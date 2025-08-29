@@ -1,0 +1,11 @@
+Global:
+  tool: build_submitter
+
+Default:
+  profile : [build]
+Profiles:
+  - profile:
+    name: build
+    env: // todo: 替换成你的env
+    command: make -f Makefile
+    release: True
